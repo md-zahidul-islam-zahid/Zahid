@@ -1,0 +1,732 @@
+@media (max-width: 575.98px) {
+/*    Home responsive part start*/
+    .logo_part{
+        text-align: center;
+    }
+    .header_content ul{
+        margin-right:55px;
+    }
+    .header_content form input{
+        position: relative;
+    }
+    .header_content form button{
+        position: absolute;
+        top: 31px;
+        right: 30px;
+    }
+    .navbar-toggler{
+        margin: auto;
+    }
+    #navbarSupportedContent ul li{
+        text-align: center;
+    }
+    .dropdown-menu{
+        padding: 0.5rem 170px;
+        border:0;
+    }
+    .news p{
+        margin: auto;
+        width:82px;
+    }
+    .notice_part{
+        width: 60%;
+        padding-top: 100px;
+        margin: auto;
+    }
+    .student_area_part{
+        width: 60%;
+        padding-top: 40px;
+        margin: auto;
+    }
+    .useful_links_part{
+        width: 60%;
+        padding-top: 40px;
+        margin: auto;
+    }
+    #our_dept_full{
+        margin-top: 100px;
+    }
+    .same_dept_part p{
+        padding: 0 50px;
+    }
+    .same_dept_part_sm{
+        margin-top: 30px;
+    }
+    .counter_numbers{
+        width: 80%;
+    }
+    .counter_numbers i{
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .counter_numbers h4{
+        font-size: 14px;
+    }
+    .counter_numbers p{
+        font-size: 12px;
+    }
+    .latest_news_left{
+        width: 70%;
+        margin: auto;
+    }
+    .latest_news_middle{
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .latest_news_right{
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .footer_logo{
+        width: 260px;
+        margin: auto;
+    }
+    .footer_logo_txt p{
+        text-align: center;
+        padding: 0 50px;
+    }
+    .footer_logo_icons{
+        width:140px;
+        margin: auto;
+    }
+    .quick_links{
+        margin: auto;
+        width:100px;
+        margin-top: 40px;
+    }
+    .quick_links_navs{
+        width:100px;
+        margin: auto;
+    }
+    .contact_Us{
+        margin: auto;
+        width:100px;
+        margin-top: 40px;
+    }
+    .contact_Us_info{
+        width:190px;
+        margin: auto;
+        padding-left: 45px;
+    }
+    .find_Us{
+        margin: auto;
+        width:75px;
+        margin-top: 40px;
+    }
+    .map{
+        width:270px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .welcometo_patshala h3{
+        width:280px;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .welcometo_patshala p{
+        padding: 0 15px 0;
+    }
+    .patshala_btn{
+       margin-left: 35%;
+    }
+    .principal_message h3{
+        width:235px;
+        margin: auto;
+        padding-top: 130px;
+    }
+    .our_dept_header h3{
+        width:213px;
+        margin: auto;
+    }
+    .principal_message_p p{
+        padding: 0 15px 0;
+    }
+    .principal{
+        padding-left: 15px;
+    }
+    .principal_info p{
+        margin-right: 0;
+    }
+/*    Home responsive part end*/
+/*    About responsive part start*/
+    .about_welcometo_patshala{
+        padding: 0 15px;
+    }
+    .about_welcometo_patshala h3{
+        margin-top: 40px;
+    }
+    .about_banner_img{
+        padding-left: 15px;
+        float: none;
+    }
+    .principal_part{
+        padding: 0 15px;
+        margin-top: 100px;
+    }
+    .about_principal_info{
+        margin-bottom: 100px;
+    }
+    .our_vision_full{
+        padding: 0 15px;
+        margin-top: 100px;
+    }
+    .our_vision h3 {
+	    width: 24%;
+	    margin: auto;
+    }
+    .our_mission h3 {
+	    width: 27%;
+	    margin: auto;
+	}
+/*    About responsive part end*/
+/*    Academic_Teachers & Staff responsive part start*/
+    .teachers_staff_welcometo_patshala h3{
+        width: 35%;
+	    margin: auto;
+    }
+    .teachers_staff_welcometo_patshala p{
+        padding: 0 15px;
+    }
+/*    Academic_Teachers & Staff responsive part end*/
+/*    Academic_Student-info responsive part start*/
+    .student_info_welcometo_patshala h3{
+        width: 28%;
+        margin:auto;
+    }
+    .student_info_welcometo_patshala p{
+        padding: 0 15px;
+    }
+    .student_dropdown_full{
+        padding: 0 15px;
+    }
+    .student_dropdown_btn{
+        padding: 0 15px;
+    }
+/*    Academic_Student-info responsive part end*/
+/*    Academic_Lab&Workshop responsive part start*/
+    .Our_Computer_Lab h3{
+        width:47%;
+        margin: auto;
+    }
+    .Our_Computer_Lab p{
+        padding: 0 15px;
+    }
+    .all_computerlab_img{
+        width: 55%;
+        margin: auto;
+    }
+    .our_workshop_lab h3{
+        width: 32%;
+        margin: auto;
+    }
+    .our_workshop_lab p{
+        padding: 0 15px;
+    }
+/*    Academic_Lab&Workshop responsive part end*/
+/*    Academic_Events responsive part start*/
+    .our_event_header h3{
+        width: 24%;
+        margin: auto;
+    }
+    
+/*    Academic_Events responsive part end*/
+/*    Admission-info responsive part start*/
+    .admission_info_header h3{
+        width:32%;
+        margin: auto;
+    }
+    .admission_info_header p{
+        padding: 0 15px;
+    }
+    .admission_all_points{
+        padding: 0 15px;
+    }
+    .admission_form h3{
+        width: 49%;
+        margin:auto;
+    }
+    .admission_form p{
+        padding: 0 15px;
+    }
+    .apply_btn{
+        width:30%;
+        margin: auto;
+    }
+/*    Admission-info responsive part end*/
+/*    ALL-Notices responsive part start*/
+    .all_notice h3{
+        width:24%;
+        margin: auto;
+    }
+    .all_notice p{
+        padding: 0 15px;
+    }
+/*    ALL-Notices responsive part end*/
+/*    Result responsive part start*/
+    .result_header h3{
+        width: 17%;
+        margin: auto;
+    }
+    .result_header p{
+        padding: 0 15px;
+    }
+    .result_header form{
+        padding-left: 15px;
+    }
+    .result_header button{
+        margin-left: 15px;
+    }
+/*    Result responsive part end*/
+/*    Contact us responsive part start*/
+    .contact_us h3{
+        width: 24%;
+        margin: auto;
+    }
+    .contact_p{
+        text-align: center;
+    }
+    .total_contact_info{
+        width: 47%; 
+        margin: auto;
+    }
+    .contact_msg h3{
+        width: 39%;
+        margin: auto;
+    }
+    .contact_map{
+        width: 62%;
+        margin: auto;
+    }
+    .contact_form{
+        padding: 0 15px;
+    }
+/*    Contact us responsive part end*/
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*    Home responsive part start*/
+    .logo_part{
+        text-align: center;
+    }
+    .header_content ul{
+        width: 84%;
+		margin: auto
+    }
+    .navbar-toggler{
+        margin: auto;
+    }
+    #navbarSupportedContent ul li{
+        text-align: center;
+    }
+    .dropdown-menu{
+        padding: 0.5rem 170px;
+        border:0;
+    }
+    .notice_part{
+        width: 60%;
+        padding-top: 100px;
+        margin: auto;
+    }
+    .student_area_part{
+        width: 60%;
+        padding-top: 40px;
+        margin: auto;
+    }
+    .useful_links_part{
+        width: 60%;
+        padding-top: 40px;
+        margin: auto;
+    }
+    #our_dept_full{
+        margin-top: 100px;
+    }
+    .same_dept_part_sm{
+        margin-top: 30px;
+    }
+    .same_dept_part p{
+        padding: 0 50px;
+    }
+    .counter_numbers{
+        width: 80%;
+    }
+    .counter_numbers i{
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .counter_numbers h4{
+        font-size: 14px;
+    }
+    .counter_numbers p{
+        font-size: 12px;
+    }
+    .latest_news_left{
+        padding: 0 70px;
+    }
+    .latest_news_middle{
+        padding: 0 70px;
+        margin-top: 30px;
+    }
+    .latest_news_right{
+        padding: 0 70px;
+        margin-top: 30px;
+    }
+    .footer_logo{
+        width: 260px;
+        margin: auto;
+    }
+    .footer_logo_txt p{
+        text-align: center;
+        padding: 0 50px;
+    }
+    .footer_logo_icons{
+        width:140px;
+        margin: auto;
+    }
+    .quick_links{
+        margin: auto;
+        width:100px;
+        margin-top: 40px;
+    }
+    .quick_links_navs{
+        width:100px;
+        margin: auto;
+    }
+    .contact_Us{
+        margin: auto;
+        width:100px;
+        margin-top: 40px;
+    }
+    .contact_Us_info{
+        width:190px;
+        margin: auto;
+        padding-left: 45px;
+    }
+    .find_Us{
+        margin: auto;
+        width:75px;
+        margin-top: 40px;
+    }
+    .map{
+        width:270px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .welcometo_patshala h3{
+        width: 52%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .patshala_btn{
+       	width: 32%;
+		margin: auto;
+		margin-top: 40px;
+    }
+    .principal_message h3{
+        width:44%;
+        margin: auto;
+        padding-top: 130px;
+    }
+    .our_dept_header h3{
+        width:40%;
+        margin: auto;
+    }
+/*    Home responsive part end*/
+/*    About responsive part start*/
+    .about_welcometo_patshala h3{
+        margin-top: 40px;
+    }
+    .about_banner_img{
+        float: none;
+    }
+    .our_vision h3{
+        width: 24%;
+        margin: auto;
+    }
+    .our_mission h3{
+        width: 28%;
+        margin: auto;
+    }
+/*    About responsive part end*/
+/*    Academic_Teachers & Staff responsive part start*/
+    .teachers_staff_welcometo_patshala h3{
+        width: 38%;
+        margin: auto;
+    }
+/*    Academic_Teachers & Staff responsive part end*/
+/*    Academic_Student-info responsive part start*/
+    .student_info_welcometo_patshala h3{
+        width: 30%;
+        margin: auto;
+    }
+/*    Academic_Student-info responsive part end*/
+/*    Academic_Lab&Workshop responsive part start*/
+    .Our_Computer_Lab h3{
+        width: 41%;
+        margin: auto;
+    }
+    .all_computerlab_img{
+        width: 58%;
+        margin: auto;
+    }
+    .our_workshop_lab h3{
+        width: 34%;
+        margin: auto;
+    }
+/*    Academic_Lab&Workshop responsive part end*/
+/*    Academic_Events responsive part start*/
+    .our_event_header h3{
+        width: 26%;
+        margin: auto;
+    }
+/*    Academic_Events responsive part end*/
+/*    Admission-info responsive part start*/
+    .admission_info_header h3{
+        width: 35%;
+        margin: auto;
+    }
+    .admission_form h3{
+        width: 53%;
+        margin: auto;
+    }
+    .apply_btn{
+        width: 32%;
+        margin: auto;
+    }
+/*    Admission-info responsive part end*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	.logo_part{
+        text-align: center;
+    }
+    .header_content ul{
+        width:63%;
+		margin: auto;
+    }
+    .navbar-toggler{
+        margin: auto;
+    }
+    #navbarSupportedContent ul li{
+        text-align: center;
+    }
+    .dropdown-menu{
+        padding: 0.5rem 170px;
+        border:0;
+    }
+    .notice_part{
+        width: 50%;
+        padding-top: 100px;
+        margin: auto;
+    }
+    .student_area_part{
+        width: 50%;
+        padding-top: 40px;
+        margin: auto;
+    }
+    .useful_links_part{
+        width: 50%;
+        padding-top: 40px;
+        margin: auto;
+    }
+    #our_dept_full{
+        margin-top: 100px;
+    }
+    .same_dept_part_sm{
+        margin-top: 30px;
+    }
+    .same_dept_part p{
+        padding: 0 50px;
+    }
+    .counter_numbers{
+        width: 80%;
+    }
+    .counter_numbers i{
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .counter_numbers h4{
+        font-size: 14px;
+    }
+    .counter_numbers p{
+        font-size: 12px;
+    }
+    .latest_news_left{
+        padding: 0 160px;
+    }
+    .latest_news_middle{
+        padding: 0 160px;
+        margin-top: 30px;
+    }
+    .latest_news_right{
+        padding: 0 160px;
+        margin-top: 30px;
+    }
+    .footer_logo{
+        width: 260px;
+        margin: auto;
+    }
+    .footer_logo_txt p{
+        text-align: center;
+        padding: 0 137px;
+    }
+    .footer_logo_icons{
+        width:140px;
+        margin: auto;
+    }
+    .quick_links{
+        margin: auto;
+        width:100px;
+        margin-top: 40px;
+    }
+    .quick_links_navs{
+        width:100px;
+        margin: auto;
+    }
+    .contact_Us{
+        margin: auto;
+        width:100px;
+        margin-top: 40px;
+    }
+    .contact_Us_info{
+        width:190px;
+        margin: auto;
+        padding-left: 45px;
+    }
+    .find_Us{
+        margin: auto;
+        width:75px;
+        margin-top: 40px;
+    }
+    .map{
+        width:270px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .welcometo_patshala h3{
+        width: 39%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .patshala_btn{
+       	width: 24%;
+		margin: auto;
+		margin-top: 40px;
+    }
+    .principal_message h3{
+        width:33%;
+        margin: auto;
+        padding-top: 130px;
+    }
+    .our_dept_header h3{
+        width:30%;
+        margin: auto;
+    }
+/*    Home responsive part end*/
+/*    About responsive part start*/
+    .about_welcometo_patshala h3{
+        margin-top: 40px;
+    }
+    .about_banner_img{
+        float: none;
+    }
+    .our_vision h3{
+        width: 18%;
+        margin: auto;
+    }
+    .our_mission h3{
+        width: 21%;
+        margin: auto;
+    }
+/*    About responsive part end*/
+/*    Academic_Teachers & Staff responsive part start*/
+    .teachers_staff_welcometo_patshala h3{
+        width: 28%;
+        margin: auto;
+    }
+/*    Academic_Teachers & Staff responsive part end*/
+/*    Academic_Student-info responsive part start*/
+    .student_info_welcometo_patshala h3{
+        width: 23%;
+        margin: auto;
+    }
+/*    Academic_Student-info responsive part end*/
+/*    Academic_Lab&Workshop responsive part start*/
+    .Our_Computer_Lab h3{
+        width: 31%;
+        margin: auto;
+    }
+    .all_computerlab_img{
+        width: 58%;
+        margin: auto;
+    }
+    .our_workshop_lab h3{
+        width: 26%;
+        margin: auto;
+    }
+/*    Academic_Lab&Workshop responsive part end*/
+/*    Academic_Events responsive part start*/
+    .our_event_header h3{
+        width: 19%;
+        margin: auto;
+    }
+/*    Academic_Events responsive part end*/
+/*    Admission-info responsive part start*/
+    .admission_info_header h3{
+        width: 26%;
+        margin: auto;
+    }
+    .admission_form h3{
+        width: 40%;
+        margin: auto;
+    }
+    .apply_btn{
+        width: 24%;
+        margin: auto;
+    }
+/*    Admission-info responsive part end*/
+/*Result part start*/
+	.result_header h3{
+		width:10%;
+		margin: auto;
+	}
+/*Result part end*/
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*Home part start*/
+	.logo_part a img{
+		width:50px;
+		height:50px;
+	}
+	.logo_part a span{
+		font-size: 22px;
+	}
+	.news p{
+		font-size: 12px;
+	}
+	.img_and_date a p{
+		padding: 20px 30px;
+	}
+	.img_and_date_last a p{
+		padding: 20px 30px;
+	}
+	.img_and_date_middle a p{
+		padding: 20px 30px;
+	}
+	.admin_comment ul li a i {
+		margin-right: 4px;
+	}
+	.latest_news_txt h4 {
+	font-size: 18px;
+	}
+/*Home part end*/
+}
+
+@media (min-width: 1200px) { 
+	
+	
+}
+

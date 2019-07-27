@@ -1,0 +1,1467 @@
+/*font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Vollkorn', serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    outline:0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+/*header start*/
+
+.logo_part {
+    padding: 25px 0;
+}
+
+.logo_part a {
+    text-decoration: none;
+}
+
+.logo_part a img {
+    margin-right: 15px;
+}
+
+.logo_part a span {
+    color: #111111;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.header_content {
+    padding: 40px 0;
+}
+
+.header_content ul li a i {
+    margin-right: 5px;
+    color: #00be89;
+}
+
+.header_content ul li a {
+    color: #888888;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.reg_border{
+    border-left: 1px solid #dfdfdf;
+}
+.searchbar input{
+    border-radius: 0;
+}
+
+.searchbar button {
+    border-radius: 0;
+    box-shadow: none !important;
+    background: #00be89;
+    color:#ffffff;
+    border: 1px solid #00be89;
+}
+
+.searchbar button:hover{
+    background: none;
+    color: #00be89;
+}
+/*header end*/
+/*Navbar start*/
+.header_nav{
+    background: #00be89;
+    padding:15px 0;
+    width:100%;
+}
+.header_nav ul li a{
+    color: #ffffff !important;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.dropdown-menu{
+    background:#00be89;
+}
+.dropdown-menu ul li a:hover{
+    color:#00be89 !important;
+    background: #ffffff;
+}
+/*Navbar end*/
+/*Latest news start*/
+#latest_news{
+    box-shadow: 0px 0px 5px 3px rgba(238,238,238,1);
+}
+.news_full{
+    
+}
+.news p{
+    color: #00be89;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform:capitalize;
+    padding: 20px 0 5px;
+}
+.news_txt{
+    box-shadow: -3px 0px 5px -3px rgba(136,136,136,0.4);
+}
+.news_txt p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#888888;
+    padding: 20px 0 5px;
+}
+/*Latest news end*/
+/*content part start*/
+#content{
+    padding-top: 70px;
+}
+.banner_img{
+    position: relative;
+}
+.slick-dots{
+    position: absolute;
+    bottom:15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li{
+    position: relative;
+    float: left;
+    height: 15px;
+    width: 15px;
+    background:none;
+    border-radius: 50%;
+    margin-right: 15px;
+    border:1px solid #ffffff;
+}
+.slick-dots li button{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 15px;
+    width: 15px;
+    background: #ffffff;
+    border-radius: 50%;
+    color: transparent;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+    outline:0;
+}
+
+#content .slick-dots .slick-active button{
+    opacity: 1;
+}
+/*************************************************/
+.welcometo_patshala h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 70px;
+}
+.welcometo_patshala p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:#888888; 
+    margin-top: 25px;
+    line-height: 28px;
+}
+.patshala_btn{
+    margin-top: 55px;
+}
+.welcometo_patshala a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 19px 39px;
+    background: #00be89;
+    text-transform: uppercase;
+    border: 1px solid #00be89;
+    transition: all linear 0.3s;
+}
+.welcometo_patshala a:hover{
+    background: transparent;
+    color: #00be89;
+}
+/******************************************************/
+.principal_message{
+    border-bottom: 1px solid #dfdfdf;
+}
+.principal_message h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 130px;
+}
+.principal_message p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:#888888; 
+    margin-top: 40px;
+    line-height: 28px;
+}
+.principal_message p a{
+    text-decoration: none;
+    color:#00be89;
+    margin-left: 5px;
+}
+/**************************************************/
+/**************************************************/
+.principal{
+    padding: 40px 0 100px;
+}
+.principal_info span{
+    color: #00be89;
+    font-family: 'Oxygen', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.principal_info p{
+    color: #666666;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+/******************************************************/
+/*notice part start*/
+.notice_board{
+    padding:20px 30px 10px;
+    background: #00be89;
+}
+.notice_board h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.notice_board_full{
+    height: 427px;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    border-top:0;
+}
+.notice_board_txt{
+    padding: 30px 20px 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.notice_border_remove{
+    border-bottom: 0;
+}
+.notice_board_txt i{
+    color: #666666;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.notice_board_txt a{
+    color:#666666;
+    text-decoration: none;
+    transition: all linear 0.3s;
+}
+.notice_board_txt a:hover{
+    color: #333333;
+}
+.notice_board_txt a p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/*notice part end*/
+/*student area start*/
+.student_area_part{
+    margin-top: 40px;
+}
+.student_area{
+    padding:20px 30px 10px;
+    background: #00be89;
+}
+.student_area h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.student_area_full{
+    border: 1px solid #dddddd;
+    border-top:0;
+    padding: 30px;
+}
+.student_area_full ul li a i{
+    margin-right: 5px;
+}
+.student_area_full ul li a{
+    color: #666666;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.student_area_full ul li a:hover{
+    color: #00be89;
+}
+/*student area end*/
+/*Useful links start*/
+.useful_links_part{
+    margin-top: 40px;
+}
+.useful_links{
+    padding:20px 30px 10px;
+    background: #00be89;
+}
+.useful_links h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.useful_links_full{
+    border: 1px solid #dddddd;
+    border-top:0;
+    padding: 15px 20px 30px;
+}
+.same_useful_links{
+    margin-bottom: -5px;
+}
+.same_useful_links i{
+    margin-top: 15px;
+    color:#666666;
+}
+.same_useful_links a{
+    color: #666666;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.same_useful_links a:hover{
+    color: #00be89;
+}
+.same_all_margin{
+	margin-bottom: 100px;
+}
+/*Useful links end*/
+/*content part end*/
+
+/*our department part start*/
+.our_dept_header h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.our_dept_allpart{
+    padding: 40px 0 100px;
+}
+.same_dept_part{
+    border: 1px solid #00be89;
+    padding: 30px 0 15px;
+    margin-top: 30px;
+}
+.same_dept_part i{
+    height:80px;
+    width:80px;
+    background: #00be89;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 40px;
+    color:#ffffff;
+}
+.same_dept_part h4{
+    margin-top: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color:#222222;
+}
+.same_dept_part p{
+    margin-top: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:#666666;
+    padding: 0 100px;
+}
+
+/*our department part end*/
+/*countdown part start*/
+#counter{
+    background: url(../images/our_gallery_bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 0;
+}
+.counter_numbers i{
+    font-size: 65px;
+    color:#ffffff;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.counter_numbers h4{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.counter_numbers p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase; 
+    color:#ffffff;
+}
+/*countdown part end*/
+/*latest news part start*/
+.latest_news_part_full{
+    padding: 70px 0 100px;
+}
+.latest_news_header{
+    margin-bottom: 55px;
+}
+.latest_news_header h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.img_and_date{
+    background: url(../images/latest_news_img_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 272px;
+    position: relative;
+}
+.img_and_date a{
+    position: absolute;
+    bottom:-17px;
+    left:50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-decoration: none;
+}
+.img_and_date a p{
+    padding: 20px 45px;
+    background: #00be89;
+}
+.img_and_date_middle{
+    background: url(../images/latest_news_img_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 272px;
+    position: relative;
+}
+.img_and_date_middle a{
+    position: absolute;
+    bottom:-17px;
+    left:50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-decoration: none;
+}
+.img_and_date_middle a p{
+    padding: 20px 45px;
+    background: #00be89;
+}
+.img_and_date_last{
+    background: url(../images/latest_news_img_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 272px;
+    position: relative;
+}
+.img_and_date_last a{
+    position: absolute;
+    bottom:-17px;
+    left:50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-decoration: none;
+}
+.img_and_date_last a p{
+    padding: 20px 45px;
+    background: #00be89;
+}
+.latest_news_txt{
+    padding:40px;
+    border: 1px solid #dddddd;
+}
+.latest_news_txt h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #222222;
+}
+.admin_comment ul li a i{
+    margin-right: 5px;
+}
+.admin_comment ul li a{
+    color: #666666;
+    transition: all linear 0.2s;
+}
+.admin_comment ul li a:hover{
+    color: #333333;
+}
+.latest_news_txt p{
+    line-height: 28px;
+    color: #888888;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
+}
+.continue_reading a{
+    color:#888888;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
+    text-decoration: none;
+    transition: all linear 0.2s;
+}
+.continue_reading a:hover{
+    color:#00be89;
+}
+.continue_reading i{
+    margin-left: 5px;
+}
+/*latest news part end*/
+/*our gallery part start*/
+#our_gallery{
+    padding: 100px 0 70px;
+    background: url(../images/our_gallery_bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_header h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.gallery_nav{
+    margin-top: 20px;
+}
+.gallery_nav button{
+    background: transparent;
+    color:#ffffff;
+    outline: 0;
+    border:0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-left: 30px;
+    transition: all linear 0.3s;
+}
+.gallery_nav button:hover{
+    color: #00be89;
+}
+.mixit_img{
+    margin-top: 10px;
+}
+.gallery_mt{
+    margin-top: 30px;
+}
+.gallery_btn{
+    margin-top: 70px;
+}
+.gallery_btn a{
+    text-decoration: none;
+    padding: 19px 39px;
+    background: #00be89;
+    border:1px solid #00be89;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all linear 0.3s;
+}
+.gallery_btn a:hover{
+    background: transparent;
+    color: #00be89;
+}
+/*our gallery part end*/
+/*footer part start*/
+#footer{
+    padding: 80px 0;
+    background: #191919;
+}
+.footer_logo img{
+    margin-right: 13px;
+}
+.footer_logo p{
+    margin-top: 10px;
+    color:#ffffff;
+    font-family: 'Vollkorn', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer_logo_txt{
+    margin-top: 5px;
+}
+.footer_logo_txt{
+    line-height: 28px;
+    color: #888888;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 14px; 
+}
+.footer_logo_icons ul li{
+    float: left;
+    margin-right: 20px;
+}
+.footer_logo_icons ul li a{
+    color: #888888;
+    transition: all linear 0.3s;
+}
+.footer_logo_icons ul li a:hover{
+    color: #00be89;
+}
+.quick_links h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:#ffffff;
+}
+.quick_links_navs{
+    margin-top: 40px;
+}
+.quick_links_navs ul li a{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 14px; 
+    color:#888888;
+    text-decoration: none;
+    line-height: 28px;
+}
+.contact_Us h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:#ffffff;
+}
+.contact_Us_info{
+    margin-top: 40px;
+}
+.contact_Us_all i{
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #00be89;
+}
+.contact_Us_all p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 14px; 
+    color:#888888;
+}
+.find_Us h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:#ffffff;
+}
+.map{
+    margin-top: 40px;
+}
+/*footer part end*/
+/*copyright part start*/
+#copyright{
+    background: #151515;
+    padding: 23px 0 8px;
+}
+.copyright p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 13px; 
+    color:#bdbdbd;
+}
+.copyright span{
+    border-bottom: 1px solid #888888;
+}
+/*copyright part end*/
+
+
+
+/*******************************About page start********************************/
+#about{
+    background: url(..//images/About.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:60px 0;
+}
+#about h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_about{
+    background: #ededed;
+}
+.back_to_about_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_about_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+/*content part start*/
+.about_banner_img{
+    float: left;
+    margin-right: 30px;
+}
+.about_welcometo_patshala h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color:#222222;
+    text-transform: uppercase;
+}
+.all_msg_p p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
+    color:#888888;
+    line-height: 28px;
+    margin-top: 25px;
+}
+.about_principal_img{
+    float: left;
+    margin-right: 30px;
+}
+.about_principal_message h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color:#222222;
+    text-transform: uppercase;
+}
+.principal_part{
+    padding: 100px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+.about_principal_info{
+    margin-top: 10px;
+}
+
+.about_principal_info span{
+    color:#00be89;
+}
+.about_principal_info p{
+    color: #666666;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:10px;
+    margin-top: 10px;
+}
+.our_vision_full{
+    padding: 100px 0;
+}
+.our_vision h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color:#222222;
+    text-transform: uppercase;
+}
+.our_vision p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
+    color:#888888;
+    line-height: 28px;
+    margin-top: 25px;
+}
+.our_mission{
+    margin-top: 85px;
+}
+.our_mission h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color:#222222;
+    text-transform: uppercase;
+}
+.our_mission_list p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
+    color:#888888;
+    line-height: 28px;
+}
+.our_mission_same i{
+    margin-right: 10px;
+    margin-top: 7px;
+    color:#888888;
+}
+.our_mission_full{
+    margin-top: 25px;
+}
+/*content part end*/
+/*******************************About page end********************************/
+
+/*********************Academic - Teachers & Staff page start******************/
+#Teachers_and_Staff{
+    background: url(..//images/Academic_Teachers-&-Staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#Teachers_and_Staff h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_teacher_staff{
+    background: #ededed;
+}
+.back_to_teacher_staff_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_teacher_staff_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.teachers_staff_welcometo_patshala h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.teacher_staff_total_navs{
+    padding: 35px 0 70px;
+}
+.teacher_staff_nav button{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    padding: 15px 35px;
+    background: transparent;
+    color:#000000;
+    border: 1px solid #00be89;
+    transition: all linear 0.2s;
+    margin-top: 20px;
+    margin-right: 15px;
+    outline: 0;
+}
+.teacher_staff_nav button:hover{
+    background: #00be89;
+    color:#ffffff;
+}
+.teacher_staff_list{
+    padding: 30px;
+    border:1px solid #dfdfdf;
+    margin-bottom: 10px;
+}
+.teacher_staff_list img{
+    float: left;
+    margin-right: 40px;
+}
+.teacher_staff_all_p{
+    margin-top: 15px;
+}
+.teacher_staff_all_p p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#222222;
+}
+.mixit_img{
+    margin-bottom: 90px;
+}
+/*********************Academic - Teachers & Staff page end******************/
+
+
+/***********************Academic - Student Info page start******************/
+#Student_Info{
+    background: url(..//images/Academic_Teachers-&-Staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#Student_Info h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_Student_Info{
+    background: #ededed;
+}
+.back_to_Student_Info_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_Student_Info_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.student_info_welcometo_patshala h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.student_dropdown_full{
+    margin-top: 50px;
+}
+.student_dropdown_full form{
+    margin-top:10px;
+}
+.student_dropdown{
+    background: url(..//images/down%20icon.png) no-repeat right .75rem center/15px 15px;
+    width:400px;
+    box-shadow: none !important;
+    border:1px solid #dfdfdf !important;
+    color: #999999;
+}
+.student_dropdown_btn{
+    margin:35px 0 100px;
+}
+.student_dropdown_btn a{
+    padding: 19px 59px;
+    background: #00be89;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #00be89;
+    transition: all linear 0.3s;
+}
+.student_dropdown_btn a:hover{
+    background: transparent;
+    color: #00be89;
+}
+.student_info_list{
+    padding: 30px;
+    border:1px solid #dfdfdf;
+    margin-bottom: 20px;
+}
+.student_info_list img{
+    float: left;
+    margin-right: 40px;
+}
+.student_info_all_p{
+    margin-top: 15px;
+}
+.student_info_all_p p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#222222;
+}
+.full_pagination{
+    margin-top: 55px;
+    margin-bottom: 85px;
+}
+.page_numbers{
+    border: 1px solid #00be89 !important;
+    box-shadow: none !important;
+    margin-right: 10px;
+    background: transparent;
+    transition: all linear 0.2s;
+    color: #000000;
+}
+.page_numbers:hover{
+    background: #00be89;
+    color:#ffffff;
+}
+/***********************Academic - Student Info page end******************/
+/****************************Academic_Lab&Workshop start********************/
+#lab_workshop{
+    background: url(..//images/Academic_Teachers-&-Staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#lab_workshop h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_lab_workshop{
+    background: #ededed;
+}
+.back_to_lab_workshop_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_lab_workshop_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.Our_Computer_Lab h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.all_computerlab_img{
+    margin-top: 60px;
+}
+.lab_img{
+    margin-right: 6px;
+    margin-top: 11px;
+}
+.our_workshop_lab{
+    margin-top: 70px;
+}
+.our_workshop_lab h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.lab_link{
+    margin-bottom: 100px;
+}
+/****************************Academic_Lab&Workshop end********************/
+/****************************Academic_Events start************************/
+#events{
+    background: url(..//images/Academic_Teachers-&-Staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#events h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_events{
+    background: #ededed;
+}
+.back_to_events_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_events_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.our_event_header h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.event_list_header h3{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:#222222;
+}
+.venue_icon i{
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.venue_icon p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#666666;
+}
+.venue_right{
+    margin-right: 30px;
+}
+.event_list p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:#888888;
+    
+}
+.event_list{
+    padding: 25px 15px 15px 30px;
+    border: 1px solid #dfdfdf;
+    margin-top: 10px;
+    position: relative;
+}
+.event_list::after{
+    position: absolute;
+    content: '';
+    top:50%;
+    left:0;
+    background: #00be89;
+    height:80px;
+    width: 3px;
+    transform: translateY(-50%);
+}
+.event_list_full{
+    margin-top: 25px;
+}
+/****************************Academic_Events end************************/
+/**************************Admission Info start***************************/
+#Admission_Info{
+    background: url(..//images/Academic_Teachers-&-Staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#Admission_Info h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_admission_Info{
+    background: #ededed;
+}
+.back_to_info_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_info_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.all_msg_icon i{
+    color: #888888;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.admission_all_points{
+    margin-top: 40px;
+}
+.admission_info_header h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.admission_form{
+    margin-top: 70px;
+}
+.admission_form h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.admission_form_p p{
+    margin-bottom: 55px;
+}
+.apply_btn a{
+    background: #00be89;
+    color:#ffffff;
+    padding: 19px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #00be89;
+    transition: all linear 0.3s;
+}
+.apply_btn a:hover{
+    background: transparent;
+    color:#00be89;
+}
+/**************************Admission Info end***************************/
+/**************************ALL-Notices start********************************/
+#ALL_Notices{
+    background: url(..//images/Contact-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#ALL_Notices h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_ALL_Notices{
+    background: #ededed;
+}
+.back_to_notice_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_notice_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.all_notice h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.all_notice_tbl{
+    margin-top: 25px;
+}
+.all_notice_tbl thead tr td{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#222222; 
+    padding-left: 20px;
+}
+.all_notice_tbl tbody tr td{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:#666666; 
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+.title_txt p{
+    color: #363636;
+}
+.all_notice_tbl tbody tr td span{
+    margin-right: 20px;
+}
+.all_notice_tbl tbody tr td span:hover{
+    color: #00be89;
+    border-bottom: 1px solid #00be89;
+    cursor: pointer;
+}
+/********************************ALL-Notices end*********************************/
+/********************************Contact_us start*******************************/
+#Contact_us{
+    background: url(..//images/Contact-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#Contact_us h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_Contact_us{
+    background: #ededed;
+}
+.back_to_contact_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_contact_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.contact_map iframe{
+    margin-top: 60px;
+}
+.contact_us_top_prt h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.contact_msg h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.contact_p{
+	padding-right: 406px;
+}
+.contact_info{
+    margin-top: 15px;
+}
+.contact_info i{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #00be89;
+    color: #00be89;
+    margin-top: -5px;
+}
+.contact_info span{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#222222;
+}
+.contact_info p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#666666;
+}
+.total_contact_info{
+    margin-top: 35px;
+}
+.contact_msg{
+    margin-top: 100px;
+}
+.form-control:focus{
+    border-color: #d9d9d9;
+    box-shadow: 0px 0px 5px 3px rgba(238,238,238,1);
+}
+.form-control::placeholder{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color:#888888;
+}
+.Contact_msg_btn{
+    background: #00be89;
+    border: 1px solid #00be89;
+    color: #ffffff;
+    padding: 19px 59px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    margin-top: 25px;
+}
+.Contact_msg_btn:hover{
+    background: transparent;
+    color: #00be89;
+}
+.form-group {
+	margin-bottom: 0rem;
+}
+.form_name{
+    width: 97% !important;
+}
+/********************************Contact_us end*******************************/
+/**********************************Result start*******************************/
+#Result{
+    background: url(..//images/Result.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+#Result h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#ffffff;
+}
+#back_to_result{
+    background: #ededed;
+}
+.back_to_result_home{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.back_to_result_home i{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.result_header h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color:#222222;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.result_dropdowns{
+    margin-top: 15px;
+}
+/**********************************Result end*******************************/
+
+
+/*back to top icon*/
+.back_to_top{
+    height: 50px;
+    width: 50px;
+    background: #00be89;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 50;
+    cursor: pointer;
+    display: none;
+    border-radius: 50%;
+}
+.back_to_top:hover{
+    background:none;
+    border:2px solid #00be89;
+    color:#00be89;
+}
+/*back to top icon*/
+
+
+/*js nav bar*/
+.header_nav_bg{
+    padding:15px 0;
+    background: #00be89;
+    position: fixed;
+    top:0;
+    z-index: 999999;
+    animation: header_nav_bg 1s;
+}
+@keyframes header_nav_bg{
+    form{
+        top: 50px;
+    }
+    to{
+        top: 0px;
+    }
+}
+/*js nav bar*/
